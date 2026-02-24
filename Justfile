@@ -5,6 +5,8 @@ dev *options:
   DATASETTE_SECRET=abc123 \
   uv run \
     --with-editable . \
+    --with-editable ../datasette-alerts \
+    --isolated --refresh --no-cache \
     datasette \
       -s permissions.datasette-alerts-access.id root \
       --root \

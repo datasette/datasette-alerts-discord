@@ -8,10 +8,10 @@ license = "Apache-2.0"
 classifiers=[
     "Framework :: Datasette"
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "datasette>=1a19",
-    "datasette-alerts",
+    "datasette-alerts>=0.0.1a7",
 ]
 
 [build-system]
